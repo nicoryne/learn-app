@@ -11,11 +11,11 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
 
-public class OnBoardingAapter extends RecyclerView.Adapter<OnBoardingAapter.OnBoardingViewHolder>
+public class OnBoardingAdapter extends RecyclerView.Adapter<OnBoardingAdapter.OnBoardingViewHolder>
 {
     List<OnBoardingModel> onBoardingModels;
 
-    public OnBoardingAapter(List<OnBoardingModel> onBoardingModels)
+    public OnBoardingAdapter(List<OnBoardingModel> onBoardingModels)
     {
         this.onBoardingModels = onBoardingModels;
     }
@@ -24,7 +24,7 @@ public class OnBoardingAapter extends RecyclerView.Adapter<OnBoardingAapter.OnBo
     @Override
     public OnBoardingViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_onboarding, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.pageviewer_opening, parent, false);
         return new OnBoardingViewHolder(view);
     }
 
