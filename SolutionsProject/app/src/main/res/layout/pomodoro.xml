@@ -1,0 +1,446 @@
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content">
+	<!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		frame_14
+     *	@date 		Thursday 29th of February 2024 12:23:46 PM
+     *	@title 		Page 2
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+	<ScrollView
+		android:id="@+id/frame_14"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent">
+
+		<RelativeLayout
+			android:id="@+id/content_container"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+			<View
+				android:id="@+id/_bg__frame_14"
+				android:layout_width="291dp"
+				android:layout_height="407dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__frame_14_shape" />
+
+
+			<RelativeLayout
+				android:id="@+id/overlay"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<View
+					android:id="@+id/_bg__overlay_ek1"
+					android:layout_width="291dp"
+					android:layout_height="407dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:background="@drawable/_bg__overlay_ek1_shape" />
+
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/bg"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp">
+
+					<View
+						android:id="@+id/_bg__bg_ek1"
+						android:layout_width="291dp"
+						android:layout_height="407dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="@drawable/_bg__bg_ek1_shape"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:id="@+id/buttoncloselayout"
+						android:layout_width="match_parent"
+						android:layout_height="48dp"
+						android:layout_marginBottom="45dp"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintStart_toStartOf="parent">
+
+						<Button
+							android:id="@+id/p_btn_close"
+							android:layout_width="143dp"
+							android:layout_height="48dp"
+							android:backgroundTint="#3c5cfe"
+							android:text="Close"
+							android:textColor="@color/pomodoro_timer_color"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintStart_toStartOf="parent" />
+
+						<Button
+							android:id="@+id/p_btn_start"
+							android:layout_width="148dp"
+							android:layout_height="48dp"
+							android:backgroundTint="#3c5cfe"
+							android:text="Start"
+							android:textColor="@color/pomodoro_timer_color"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/alarm"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="14dp"
+					android:layout_marginTop="226dp">
+
+					<TextView
+						android:id="@+id/timer"
+						android:layout_width="90.2dp"
+						android:layout_height="21.2dp"
+						android:layout_marginLeft="5dp"
+						android:layout_marginTop="0dp"
+						android:text="@string/timer_string"
+						android:textColor="@color/timer_color"
+						android:textSize="12sp" />
+
+					<ImageView
+						android:id="@+id/slder_1"
+						android:layout_width="116dp"
+						android:layout_height="38dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="24dp"
+						android:contentDescription="slder_1"
+						android:src="@drawable/slder_1" />
+
+					<ImageView
+						android:id="@+id/background"
+						android:layout_width="139dp"
+						android:layout_height="29dp"
+						android:layout_marginStart="120dp"
+						android:layout_marginTop="27dp"
+						android:contentDescription="background"
+						android:src="@drawable/background" />
+
+
+					<RelativeLayout
+						android:id="@+id/frame_13"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="126dp"
+						android:layout_marginTop="30dp">
+
+						<TextView
+							android:id="@+id/door_bell"
+							android:layout_width="84.6dp"
+							android:layout_height="28.6dp"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:alpha="0.5"
+							android:text="@string/door_bell_string"
+							android:textColor="@color/timer_color"
+							android:textSize="16sp" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/timer_minutes_"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="19dp"
+					android:layout_marginTop="81dp">
+
+
+					<RelativeLayout
+						android:id="@+id/break_interval"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="65dp">
+
+						<View
+							android:id="@+id/_bg__break_interval_ek1"
+							android:layout_width="115dp"
+							android:layout_height="57dp"
+							android:layout_marginStart="-19dp"
+							android:layout_marginTop="-146dp"
+							android:background="@drawable/_bg__break_interval_ek1_shape" />
+
+
+						<EditText
+							android:id="@+id/p_nt_longbreakinterval"
+							android:layout_width="57dp"
+							android:layout_height="48dp"
+							android:layout_marginLeft="4dp"
+							android:layout_marginTop="18dp"
+							android:ems="10"
+							android:gravity="center|right"
+							android:inputType="number"
+							android:hint="0"
+							android:textColor="@color/pomodoro_timer_color" />
+
+						<ImageView
+							android:id="@+id/background_ek1"
+							android:layout_width="59dp"
+							android:layout_height="29dp"
+							android:layout_marginStart="4dp"
+							android:layout_marginTop="27dp"
+							android:contentDescription="background_ek1"
+							android:src="@drawable/background_ek1" />
+
+						<RelativeLayout
+							android:id="@+id/frame_13_ek2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="48dp"
+							android:layout_marginTop="27dp">
+
+							<View
+								android:id="@+id/_bg__frame_13_ek3"
+								android:layout_width="12dp"
+								android:layout_height="30dp"
+								android:layout_marginStart="-67dp"
+								android:layout_marginTop="-173dp"
+								android:background="@drawable/_bg__frame_13_ek3_shape" />
+
+						</RelativeLayout>
+
+						<TextView
+							android:id="@+id/timer_ek1"
+							android:layout_width="127.2dp"
+							android:layout_height="21.2dp"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:text="@string/timer_ek1_string"
+							android:textColor="@color/timer_color"
+							android:textSize="12sp" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/timersetter"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp">
+
+
+						<RelativeLayout
+							android:id="@+id/work"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp">
+
+							<ImageView
+								android:id="@+id/background_ek2"
+								android:layout_width="59dp"
+								android:layout_height="29dp"
+								android:layout_marginStart="4dp"
+								android:layout_marginTop="20dp"
+								android:contentDescription="background_ek2"
+								android:src="@drawable/background_ek2" />
+
+
+							<EditText
+								android:id="@+id/p_nt_work"
+								android:layout_width="57dp"
+								android:layout_height="48dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="10dp"
+
+								android:ems="10"
+								android:gravity="center|right"
+								android:inputType="number"
+								android:hint="0"
+								android:textColor="@color/pomodoro_timer_color" />
+
+							<RelativeLayout
+								android:id="@+id/frame_13_ek4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="36dp"
+								android:layout_marginTop="20dp" />
+
+							<TextView
+								android:id="@+id/timer_ek2"
+								android:layout_width="43.2dp"
+								android:layout_height="21.2dp"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:text="@string/timer_ek2_string"
+								android:textColor="@color/timer_ek2_color"
+								android:textSize="12sp" />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout
+							android:id="@+id/break_"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="95dp"
+							android:layout_marginTop="0dp">
+
+							<EditText
+								android:id="@+id/p_nt_break"
+								android:layout_width="57dp"
+								android:layout_height="48dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="10dp"
+								android:ems="10"
+								android:gravity="center|right"
+								android:inputType="number"
+								android:hint="0"
+								android:textColor="@color/pomodoro_timer_color" />
+
+							<ImageView
+								android:id="@+id/background_ek3"
+								android:layout_width="59dp"
+								android:layout_height="29dp"
+								android:layout_marginStart="4dp"
+								android:layout_marginTop="20dp"
+								android:contentDescription="background_ek3"
+								android:src="@drawable/background_ek3" />
+
+
+							<RelativeLayout
+								android:id="@+id/frame_13_ek6"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="47dp"
+								android:layout_marginTop="20dp">
+
+								<View
+									android:id="@+id/_bg__frame_13_ek7"
+									android:layout_width="13dp"
+									android:layout_height="30dp"
+									android:layout_marginStart="-161dp"
+									android:layout_marginTop="-101dp"
+									android:background="@drawable/_bg__frame_13_ek7_shape" />
+
+							</RelativeLayout>
+
+							<TextView
+								android:id="@+id/timer_ek3"
+								android:layout_width="46.2dp"
+								android:layout_height="21.2dp"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:text="@string/timer_ek3_string"
+								android:textColor="@color/timer_ek2_color"
+								android:textSize="12sp" />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout
+							android:id="@+id/long_break"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="190dp"
+							android:layout_marginTop="0dp">
+
+							<EditText
+								android:id="@+id/p_nt_longbreak"
+								android:layout_width="57dp"
+								android:layout_height="48dp"
+								android:layout_marginLeft="5dp"
+								android:layout_marginTop="10dp"
+								android:ems="10"
+								android:gravity="center|right"
+								android:inputType="number"
+								android:hint="0"
+								android:textColor="@color/pomodoro_timer_color" />
+
+							<ImageView
+								android:id="@+id/background_ek4"
+								android:layout_width="59dp"
+								android:layout_height="29dp"
+								android:layout_marginStart="4dp"
+								android:layout_marginTop="20dp"
+								android:contentDescription="background_ek4"
+								android:src="@drawable/background_ek4" />
+
+
+							<RelativeLayout
+								android:id="@+id/frame_13_ek8"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="36dp"
+								android:layout_marginTop="20dp" />
+
+							<TextView
+								android:id="@+id/timer_ek4"
+								android:layout_width="79.2dp"
+								android:layout_height="21.2dp"
+								android:layout_marginLeft="0dp"
+								android:layout_marginTop="0dp"
+								android:text="@string/timer_ek4_string"
+								android:textColor="@color/timer_color"
+								android:textSize="12sp" />
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/text"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="19dp"
+					android:layout_marginTop="24dp">
+
+					<TextView
+						android:id="@+id/timer_ek5"
+						android:layout_width="109.2dp"
+						android:layout_height="21.2dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="32dp"
+						android:text="@string/timer_ek5_string"
+						android:textColor="@color/timer_color"
+						android:textSize="12sp" />
+
+					<TextView
+						android:id="@+id/pomodoro_timer"
+						android:layout_width="224.4dp"
+						android:layout_height="43.4dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:text="@string/pomodoro_timer_string"
+						android:textColor="@color/pomodoro_timer_color"
+						android:textSize="24sp"
+						android:textStyle="bold" />
+
+				</RelativeLayout>
+
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+	</ScrollView>
+</HorizontalScrollView>

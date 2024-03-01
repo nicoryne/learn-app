@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     MaterialButton materialButton;
     ConstraintLayout button;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -146,6 +147,11 @@ public class MainActivity extends AppCompatActivity {
                     }
                 }
         );
+
+//      temporary test
+//        View view = LayoutInflater.from(getApplication()).inflate(R.layout.modal_bottom_sheet, null);
+//        Button modal_submit_button = view.findViewById(R.id.modal_submit_button);
+//        modal_submit_button.setOnClickListener(v -> Toast.makeText(MainActivity.this, "What", Toast.LENGTH_SHORT));
     }
 
     private void setCurrentOnBoardingIndicator(int index) {
