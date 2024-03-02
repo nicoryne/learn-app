@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -18,6 +19,7 @@ import androidx.viewpager2.widget.ViewPager2;
 import com.example.solutionsproject.R;
 import com.example.solutionsproject.classes.OnBoardingAdapter;
 import com.example.solutionsproject.classes.OnBoardingModel;
+import com.example.solutionsproject.classes.SessionManager;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -33,6 +35,15 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        SessionManager session = new SessionManager(getApplicationContext());
+//        if (session.isLoggedIn()) {
+//            // User is logged in
+//            Toast.makeText(MainActivity.this, "Welcome " + session.getCurrentUser().getName(), Toast.LENGTH_LONG).show();
+//        } else {
+//            // User is not logged in
+//            Toast.makeText(MainActivity.this, "NOT LOGGED IN", Toast.LENGTH_LONG).show();
+//        }
 
         viewPagerOnboarding = findViewById(R.id.view_pager_onboarding);
         linearLayoutPageIndicator = findViewById(R.id.linear_onboarding_indicator);
