@@ -6,7 +6,6 @@ public class OnBoardingModel
     private String titleOnBoarding;
     private String descriptionOnBoarding;
 
-
     public OnBoardingModel()
     {
     }
