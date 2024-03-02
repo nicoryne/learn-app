@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,7 +6,9 @@ import android.os.Bundle;
 import android.widget.ImageView;
 import android.widget.Toast;
 
-	public class home_activity extends Activity {
+import com.example.solutionsproject.R;
+
+public class home_activity extends Activity {
 
 		@Override
 	public void onCreate(Bundle savedInstanceState) {

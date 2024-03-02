@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,7 +13,9 @@ import android.widget.PopupWindow;
 import android.widget.ScrollView;
 import android.widget.Toast;
 
-    public class course_details_activity extends Activity {
+import com.example.solutionsproject.R;
+
+public class course_details_activity extends Activity {
 
         @Override
     public void onCreate(Bundle savedInstanceState) {

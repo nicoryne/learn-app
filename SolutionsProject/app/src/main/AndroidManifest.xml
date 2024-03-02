@@ -13,28 +13,20 @@
         android:theme="@style/Theme.SolutionsProject"
         tools:targetApi="31">
         <activity
-            android:name=".pomodoro_activity"
+            android:name=".activities.SignupActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".message_3_activity"
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".message_4_activity"
+            android:name=".activities.LoginSuccessActivity"
+            android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".course_details_activity"
-            android:exported="false" />
-        <activity
-            android:name=".courses_activity"
-            android:exported="false" />
-        <activity
-            android:name=".account_activity"
-            android:exported="false" />
-        <activity
-            android:name=".home_activity"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
+            android:name=".activities.MainActivity"
+            android:screenOrientation="portrait"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

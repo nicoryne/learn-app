@@ -15,7 +15,7 @@
 	 */
 	
 
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
     import android.app.Activity;
     import android.content.Intent;
@@ -26,7 +26,10 @@ package com.example.solutionsproject;
     import android.widget.ImageView;
     import android.widget.TextView;
 
-public class pomodoro_activity extends Activity {
+	import com.example.solutionsproject.R;
+	import com.example.solutionsproject.classes.PomodoroTimer;
+
+	public class pomodoro_activity extends Activity {
 
 	
 	private View _bg__frame_14;

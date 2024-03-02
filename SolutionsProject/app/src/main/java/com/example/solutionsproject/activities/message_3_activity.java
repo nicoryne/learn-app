@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -7,7 +7,9 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-    public class message_3_activity extends Activity {
+import com.example.solutionsproject.R;
+
+public class message_3_activity extends Activity {
 
         @Override
         public void onCreate(Bundle savedInstanceState) {

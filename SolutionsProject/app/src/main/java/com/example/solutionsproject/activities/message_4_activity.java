@@ -15,7 +15,7 @@
 	 */
 	
 
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
     import android.app.Activity;
     import android.content.Intent;
@@ -24,6 +24,8 @@ package com.example.solutionsproject;
     import android.widget.ImageView;
     import android.widget.TextView;
     import android.widget.Toast;
+
+    import com.example.solutionsproject.R;
 
     public class message_4_activity extends Activity {
 

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/modalBottomSheetContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_theme_1">
+
+    <View
+        android:id="@+id/modal_background"
+        android:layout_width="match_parent"
+        android:layout_height="564dp"
+        android:background="@color/bg_dark_theme_2"
+        android:contentDescription="rectangle_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/modal_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.278"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/modal_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Sign Up"
+            android:textColor="@color/text_primary"
+            android:textSize="32sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/modal_sub_header"
+            android:layout_width="260.2dp"
+            android:layout_height="21.2dp"
+            android:text="Enter your details below sign up for free"
+            android:textColor="@color/text_primary"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/modal_background"
+        app:layout_constraintVertical_bias="0.316">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Your Email"
+                android:textColor="@color/bg_secondary" />
+
+            <EditText
+                android:id="@+id/ettEmail"
+                android:layout_width="327dp"
+                android:layout_height="50dp"
+                android:background="@color/bg_dark_theme_3"
+                android:ems="10"
+                android:inputType="textEmailAddress"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                android:text="jianlev@gmail.com"
+                android:textColor="@color/text_primary" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="Password"
+                android:textColor="@color/bg_secondary"
+                android:textSize="14sp" />
+
+            <EditText
+                android:id="@+id/ettPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/bg_dark_theme_3"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:paddingHorizontal="16dp"
+                android:paddingVertical="16dp"
+                android:text="password"
+                android:textColor="@color/text_primary" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmitSignup"
+            android:layout_width="327dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="@color/bg_primary"
+            android:contentDescription="background"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:textColor="@color/text_primary"
+            app:cornerRadius="16dp" />
+
+        <CheckBox
+            android:id="@+id/terms_conditions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:buttonTint="#FFFFFF"
+            android:text="I agree to the Terms and Conditions."
+            android:textColor="@color/white" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/modal_switch"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <TextView
+                android:id="@+id/modal_switch_desc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already have an account?"
+                android:textColor="@color/bg_secondary"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.361"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.47" />
+
+            <TextView
+                android:id="@+id/btnSwitchLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Log in"
+                android:textColor="@color/bg_primary"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.137"
+                app:layout_constraintStart_toEndOf="@+id/modal_switch_desc"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.47" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

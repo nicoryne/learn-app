@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.classes;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,13 +9,15 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.solutionsproject.R;
+
 import java.util.List;
 
-public class OnBoardingAapter extends RecyclerView.Adapter<OnBoardingAapter.OnBoardingViewHolder>
+public class OnBoardingAdapter extends RecyclerView.Adapter<OnBoardingAdapter.OnBoardingViewHolder>
 {
     List<OnBoardingModel> onBoardingModels;
 
-    public OnBoardingAapter(List<OnBoardingModel> onBoardingModels)
+    public OnBoardingAdapter(List<OnBoardingModel> onBoardingModels)
     {
         this.onBoardingModels = onBoardingModels;
     }
