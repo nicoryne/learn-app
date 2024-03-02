@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         Button openSignUp = findViewById(R.id.btnSignup);
         Button openLogIn = findViewById(R.id.btnLogin);
 
+        // Page Dot Indicators
         ImageView[] indicators = new ImageView[onBoardingAdapter.getItemCount()];
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         layoutParams.setMargins(10, 10, 10, 10);
