@@ -8,13 +8,13 @@ import android.widget.Toast;
 
 import com.example.solutionsproject.R;
 
-public class home_activity extends Activity {
+public class HomeActivity extends Activity {
 
 		@Override
 	public void onCreate(Bundle savedInstanceState) {
 
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.home);
+		setContentView(R.layout.activity_home);
 
 		ImageView search = findViewById(R.id.search);
 		ImageView course = findViewById(R.id.course);
@@ -23,16 +23,16 @@ public class home_activity extends Activity {
 		ImageView profile = findViewById(R.id.profile);
 
 		//custom code goes here
-		profile.setOnClickListener(v -> startActivity(new Intent(home_activity.this, account_activity.class)));
+		profile.setOnClickListener(v -> startActivity(new Intent(HomeActivity.this, AccountActivity.class)));
 
-		search.setOnClickListener(v -> Toast.makeText(home_activity.this, "search placeholder", Toast.LENGTH_SHORT).show());
+		search.setOnClickListener(v -> Toast.makeText(HomeActivity.this, "search placeholder", Toast.LENGTH_SHORT).show());
 
 		//footer nav
-		account.setOnClickListener(v -> startActivity(new Intent(home_activity.this, account_activity.class)));
+		account.setOnClickListener(v -> startActivity(new Intent(HomeActivity.this, AccountActivity.class)));
 
-		course.setOnClickListener(v -> startActivity(new Intent(home_activity.this, courses_activity.class)));
+		course.setOnClickListener(v -> startActivity(new Intent(HomeActivity.this, CoursesActivity.class)));
 
-		message.setOnClickListener(v -> startActivity(new Intent(home_activity.this, message_3_activity.class)));
+		message.setOnClickListener(v -> startActivity(new Intent(HomeActivity.this, NotificationsActivity.class)));
 	}
 }
 	

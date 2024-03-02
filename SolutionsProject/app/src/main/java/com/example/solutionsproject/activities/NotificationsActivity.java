@@ -9,13 +9,13 @@ import android.widget.Toast;
 
 import com.example.solutionsproject.R;
 
-public class message_3_activity extends Activity {
+public class NotificationsActivity extends Activity {
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
 
             super.onCreate(savedInstanceState);
-            setContentView(R.layout.message_3);
+            setContentView(R.layout.activity_notifications);
 
             TextView message = findViewById(R.id.message);
             ImageView search = findViewById(R.id.search);
@@ -25,16 +25,16 @@ public class message_3_activity extends Activity {
 
 
             //custom code goes here
-            message.setOnClickListener(v -> startActivity(new Intent(message_3_activity.this, message_4_activity.class)));
+            message.setOnClickListener(v -> startActivity(new Intent(NotificationsActivity.this, MessagesActivity.class)));
 
             //footer nav
-            account.setOnClickListener(v -> startActivity(new Intent(message_3_activity.this, account_activity.class)));
+            account.setOnClickListener(v -> startActivity(new Intent(NotificationsActivity.this, AccountActivity.class)));
 
-            search.setOnClickListener(v -> Toast.makeText(message_3_activity.this, "search placeholder", Toast.LENGTH_SHORT).show());
+            search.setOnClickListener(v -> Toast.makeText(NotificationsActivity.this, "search placeholder", Toast.LENGTH_SHORT).show());
 
-            course.setOnClickListener(v -> startActivity(new Intent(message_3_activity.this, courses_activity.class)));
+            course.setOnClickListener(v -> startActivity(new Intent(NotificationsActivity.this, CoursesActivity.class)));
 
-            home.setOnClickListener(v -> startActivity(new Intent(message_3_activity.this, home_activity.class)));
+            home.setOnClickListener(v -> startActivity(new Intent(NotificationsActivity.this, HomeActivity.class)));
         }
     }
 	

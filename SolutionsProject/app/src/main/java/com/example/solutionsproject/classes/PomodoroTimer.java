@@ -4,8 +4,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 public class PomodoroTimer {
-    private Timer timer = new Timer();
-    private boolean isWorkTime = true;
+    private Timer timer;
+    private boolean isWorkTime;
     private int work;
     private int break_;
     private int long_;

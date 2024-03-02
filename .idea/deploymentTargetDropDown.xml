@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="Learn.app">
+        <State />
+      </entry>
+      <entry key="Learn.app.androidTest">
+        <State />
+      </entry>
+      <entry key="Learn.app.main">
+        <State />
+      </entry>
+      <entry key="Learn.app.unitTest">
+        <State />
+      </entry>
+      <entry key="MainActivity">
+        <State />
+      </entry>
+      <entry key="app">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
