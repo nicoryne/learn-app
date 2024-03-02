@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.classes;
 
 public class OnBoardingModel
 {

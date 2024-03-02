@@ -1,4 +1,4 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.classes;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -8,6 +8,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.solutionsproject.R;
 
 import java.util.List;
 
@@ -24,7 +26,7 @@ public class OnBoardingAdapter extends RecyclerView.Adapter<OnBoardingAdapter.On
     @Override
     public OnBoardingViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType)
     {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.pageviewer_opening, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.activity_pageviewer_opening, parent, false);
         return new OnBoardingViewHolder(view);
     }
 

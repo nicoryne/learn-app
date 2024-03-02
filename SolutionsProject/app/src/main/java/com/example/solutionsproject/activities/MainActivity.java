@@ -1,31 +1,28 @@
-package com.example.solutionsproject;
+package com.example.solutionsproject.activities;
 
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.view.MotionEvent;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.Button;
-import android.widget.CheckBox;
-import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.TextView;
-
-import com.google.android.material.bottomsheet.BottomSheetDialog;
-import com.google.android.material.button.MaterialButton;
+import com.example.solutionsproject.R;
+import com.example.solutionsproject.classes.OnBoardingAdapter;
+import com.example.solutionsproject.classes.OnBoardingModel;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
-    private List<OnBoardingModel> onBoardingModels;
     private OnBoardingAdapter onBoardingAdapter;
     private ViewPager2 viewPagerOnboarding;
     private LinearLayout linearLayoutPageIndicator;
@@ -42,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         skipButton = findViewById(R.id.btnSkipOpening);
         authButtons = findViewById(R.id.button);
 
-        onBoardingModels = new ArrayList<>();
+        List<OnBoardingModel> onBoardingModels = new ArrayList<>();
         onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Numerous free trial courses", "Free courses for you to discover!"));
         onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Quick and easy learning", "Accessible services provided in various ways, to accompany all your learning styles!"));
         onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Create your own study plan", "Study at your own pace! Making yourself consistent and motivated."));
@@ -50,8 +47,8 @@ public class MainActivity extends AppCompatActivity {
         onBoardingAdapter = new OnBoardingAdapter(onBoardingModels);
         viewPagerOnboarding.setAdapter(onBoardingAdapter);
 
-        Button OpenSignUp = findViewById(R.id.btnSignup);
-        Button OpenLogIn = findViewById(R.id.btnLogin);
+        Button openSignUp = findViewById(R.id.btnSignup);
+        Button openLogIn = findViewById(R.id.btnLogin);
 
         ImageView[] indicators = new ImageView[onBoardingAdapter.getItemCount()];
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
@@ -80,45 +77,19 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        OpenLogIn.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(MainActivity.this);
-                        View bottomSheetView = LayoutInflater.from(getApplicationContext())
-                                .inflate(R.layout.bottom_sheet_login, (LinearLayout) findViewById(R.id.modalBottomSheetContainer));
-                        bottomSheetView.findViewById(R.id.modal_switch);
-
-                        bottomSheetDialog.setContentView(bottomSheetView);
-                        bottomSheetDialog.show();
-                    }
-                }
-        );
-
-        OpenSignUp.setOnClickListener(
-                new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        final BottomSheetDialog bottomSheetDialog = new BottomSheetDialog(MainActivity.this);
-                        View bottomSheetView = LayoutInflater.from(getApplicationContext())
-                                .inflate(R.layout.bottom_sheet_signup, (LinearLayout) findViewById(R.id.modalBottomSheetContainer));
-                        bottomSheetView.findViewById(R.id.modal_switch);
-
-                        bottomSheetDialog.setContentView(bottomSheetView);
-                        bottomSheetDialog.show();
-                    }
-                }
-        );
-
-        // Bottom Sheet Layout
-        LayoutInflater inflater = getLayoutInflater();
-        View bottomSheetLogin = inflater.inflate(R.layout.bottom_sheet_login, null);
-
-        Button submitLoginButton = bottomSheetLogin.findViewById(R.id.btnSubmitLogin);
-        submitLoginButton.setOnClickListener(new View.OnClickListener() {
+        openLogIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: Pop up dialog login success layout
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        openSignUp.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, SignupActivity.class);
+                startActivity(intent);
             }
         });
     }
@@ -135,15 +106,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (index == onBoardingAdapter.getItemCount() - 1) {
-            if (skipButton.getVisibility() != View.GONE)
-                skipButton.setVisibility(View.GONE);
+            if (skipButton.getVisibility() != View.GONE) skipButton.setVisibility(View.GONE);
             if (authButtons.getVisibility() != View.VISIBLE)
                 authButtons.setVisibility(View.VISIBLE);
         } else {
-            if (skipButton.getVisibility() != View.VISIBLE)
-                skipButton.setVisibility(View.VISIBLE);
-            if (authButtons.getVisibility() != View.GONE)
-                authButtons.setVisibility(View.GONE);
+            if (skipButton.getVisibility() != View.VISIBLE) skipButton.setVisibility(View.VISIBLE);
+            if (authButtons.getVisibility() != View.GONE) authButtons.setVisibility(View.GONE);
         }
     }
 }
