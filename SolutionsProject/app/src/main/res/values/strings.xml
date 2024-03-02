@@ -2,4 +2,76 @@
     <string name="app_name">ViewPager</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    //home
+    <string name="meetup_ek2_string">Meetup</string>
+    <string name="chat_with_your_fellow_learners_string">Chat with your fellow learners</string>
+    <string name="finished_everything__string">finished everything!</string>
+    <string name="learning_plan_ek2_string">Learning Plan</string>
+    <string name="learned_today_ek2_string">Learned today</string>
+    <string name="my_courses_string">My courses</string>
+    <string name="_46min_string">46min</string>
+    <string name="___60min_string">/ 60min</string>
+    <string name="hi___placeholder__string">Hi, Jian Lev</string>
+    <string name="let_s_start_learning_string">Lets start learning</string>
+
+    //account
+    <string name="favourite_string">Favourite</string>
+    <string name="edit_account_string">Edit Account</string>
+    <string name="settings_and_privacy_string">Settings and Privacy</string>
+    <string name="help_string">Help</string>
+    <string name="account_ek5_string">Account</string>
+
+    //courses
+    <string name="choice_your_course_string">Choice your course</string>
+    <string name="all_string">All</string>
+    <string name="popular_string">Popular</string>
+    <string name="new_string">New</string>
+    <string name="__placeholder_course__string">{placeholder course}</string>
+    <string name="jev_string">Jev</string>
+    <string name="_1_hour_string">1 hour</string>
+    <string name="find_course_string">Find Course</string>
+    <string name="course_ek1_string">Course</string>
+
+    //course_details
+    <string name="learn_now_string">Learn Now</string>
+    <string name="no_courses_string">No courses</string>
+    <string name="about_this_course_string">About this course</string>
+    <string name="sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium__string">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, </string>
+    <string name="_1h___0_lessons_string">1h  0 lessons</string>
+    <string name="__placeholder_course__ek1_string">{placeholder course}</string>
+
+    //message_4
+    <string name="message_string">message</string>
+    <string name="notification_string">notification</string>
+    <string name="no_messages____string">No messages…</string>
+    <string name="notifications_string">Notifications</string>
+
+    //message_3
+    <string name="thank_you_for_choosing_us__string">Thank you for choosing us!</string>
+    <string name="just_now_string">Just now</string>
+
+    //pomodoro
+    <string name="timer_string">Alarm Sound</string>
+    <string name="door_bell_string">door bell</string>
+    <string name="_4_string">4</string>
+    <string name="timer_ek1_string">Long break interval</string>
+    <string name="_25_string">25</string>
+    <string name="timer_ek2_string">Work</string>
+    <string name="_5_string">5</string>
+    <string name="timer_ek3_string">Break</string>
+    <string name="_20_string">20</string>
+    <string name="timer_ek4_string">Long break</string>
+    <string name="timer_ek5_string">Timer (minutes)</string>
+    <string name="pomodoro_timer_string">Pomodoro Timer</string>
+    <string name="progress__string">Progress:</string>
+    <string name="long_break_ek2_string">long break</string>
+    <string name="_1_string">1</string>
+    <string name="_2_string">2</string>
+    <string name="_3_string">3</string>
+    <string name="_4_ek1_string">4</string>
+    <string name="_5_ek1_string">5</string>
+    <string name="_6_string">6</string>
+    <string name="_7_string">7</string>
+    <string name="p_nt_work">p_nt_work</string>
 </resources>

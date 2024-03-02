@@ -1,0 +1,512 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/horizontalScrollView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/group_17"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/__placeholder_course__color"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent">
+
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/footer_course"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent">
+
+			<ImageButton
+				android:id="@+id/search"
+				android:layout_width="52dp"
+				android:layout_height="69.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="6dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="search"
+				android:src="@drawable/search"
+				app:layout_constraintStart_toEndOf="@+id/course"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/home"
+				android:layout_width="48dp"
+				android:layout_height="60.1dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="home"
+				android:src="@drawable/home"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/course"
+				android:layout_width="48dp"
+				android:layout_height="60.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="course"
+				android:src="@drawable/course_enabled"
+				app:layout_constraintStart_toEndOf="@+id/home"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/message"
+				android:layout_width="48.71dp"
+				android:layout_height="62.99dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="message"
+				android:src="@drawable/message"
+				app:layout_constraintStart_toEndOf="@+id/search"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/account"
+				android:layout_width="48.55dp"
+				android:layout_height="60.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="account"
+				android:src="@drawable/account"
+				app:layout_constraintStart_toEndOf="@+id/message"
+				app:layout_constraintTop_toTopOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/title_ek4"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					tools:layout_editor_absoluteX="20dp"
+					tools:layout_editor_absoluteY="50dp">
+
+					<TextView
+						android:id="@+id/course_ek1"
+						android:layout_width="108.4dp"
+						android:layout_height="43.4dp"
+						android:layout_marginLeft="0dp"
+						android:layout_marginTop="0dp"
+						android:text="@string/course_ek1_string"
+						android:textColor="@color/course_ek1_color"
+						android:textSize="24sp"
+						android:textStyle="bold"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<ImageButton
+					android:id="@+id/profile"
+					android:layout_width="48dp"
+					android:layout_height="49.98dp"
+					android:layout_marginStart="190dp"
+					android:background="?android:selectableItemBackground"
+					android:contentDescription="profile"
+					android:src="@drawable/profile"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/title_ek4"
+					tools:layout_editor_absoluteY="50dp" />
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/search_bar"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center"
+				android:layout_marginBottom="5dp">
+
+
+				<RelativeLayout
+					android:id="@+id/search_ek1"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageButton
+						android:id="@+id/search__background_"
+						android:layout_width="335dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="search__background_"
+						android:src="@drawable/search__background_" />
+
+					<TextView
+						android:id="@+id/find_course"
+						android:layout_width="96.4dp"
+						android:layout_height="25.4dp"
+						android:layout_marginLeft="44dp"
+						android:layout_marginTop="16dp"
+						android:text="@string/find_course_string"
+						android:textColor="@color/jev_color"
+						android:textSize="14sp" />
+
+
+					<RelativeLayout
+						android:id="@+id/icon_search"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="17dp"
+						android:layout_marginTop="17dp">
+
+						<ImageView
+							android:id="@+id/vector__stroke_"
+							android:layout_width="13.9dp"
+							android:layout_height="13.91dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="vector__stroke_"
+							android:src="@drawable/vector__stroke_" />
+
+					</RelativeLayout>
+
+
+					<RelativeLayout
+						android:id="@+id/icon_filter"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="297dp"
+						android:layout_marginTop="14dp">
+
+						<ImageView
+							android:id="@+id/vector__stroke__ek1"
+							android:layout_width="21dp"
+							android:layout_height="20dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="vector__stroke__ek1"
+							android:src="@drawable/vector__stroke__ek1" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/recommendations"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+
+				<ImageView
+					android:id="@+id/painting"
+					android:layout_width="160dp"
+					android:layout_height="108dp"
+					android:layout_marginStart="175dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="painting"
+					android:src="@drawable/painting"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<ImageView
+					android:id="@+id/language"
+					android:layout_width="160dp"
+					android:layout_height="108dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="language"
+					android:src="@drawable/language"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<Space
+				android:layout_width="match_parent"
+				android:layout_height="50dp" />
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/courses_ek5"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content">
+
+
+				<TextView
+					android:id="@+id/choice_your_course"
+					android:layout_width="198dp"
+					android:layout_height="35dp"
+					android:layout_marginLeft="20dp"
+					android:layout_marginTop="16dp"
+					android:text="@string/choice_your_course_string"
+					android:textColor="@color/choice_your_course_color"
+					android:textSize="18sp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+
+				<RelativeLayout
+					android:id="@+id/tabs"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="56dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+					<RelativeLayout
+						android:id="@+id/tabs_ek2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp">
+
+
+						<RelativeLayout
+							android:id="@+id/tab_on"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp">
+
+							<ImageView
+								android:id="@+id/tab_on__background_"
+								android:layout_width="73dp"
+								android:layout_height="28dp"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="tab_on__background_"
+								android:src="@drawable/tab_on__background_" />
+
+							<TextView
+								android:id="@+id/all"
+								android:layout_width="30.4dp"
+								android:layout_height="25.4dp"
+								android:layout_marginLeft="28dp"
+								android:layout_marginTop="6dp"
+								android:text="@string/all_string"
+								android:textColor="@color/choice_your_course_color"
+								android:textSize="14sp" />
+
+						</RelativeLayout>
+
+
+						<RelativeLayout
+							android:id="@+id/tab_off"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="90dp"
+							android:layout_marginTop="0dp">
+
+							<ImageView
+								android:id="@+id/tab_off__background_"
+								android:layout_width="73dp"
+								android:layout_height="28dp"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="tab_off__background_"
+								android:src="@drawable/tab_off__background_" />
+
+
+							<RelativeLayout
+								android:id="@+id/tab_on_ek2"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp">
+
+								<ImageView
+									android:id="@+id/tab_on__background__ek1"
+									android:layout_width="73dp"
+									android:layout_height="28dp"
+									android:layout_marginStart="0dp"
+									android:layout_marginTop="0dp"
+									android:contentDescription="tab_on__background__ek1"
+									android:src="@drawable/tab_on__background__ek1" />
+
+								<TextView
+									android:id="@+id/popular"
+									android:layout_width="67.4dp"
+									android:layout_height="25.4dp"
+									android:layout_marginLeft="10dp"
+									android:layout_marginTop="6dp"
+									android:text="@string/popular_string"
+									android:textColor="@color/choice_your_course_color"
+									android:textSize="14sp" />
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+
+						<RelativeLayout
+							android:id="@+id/tab_off_ek2"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:layout_marginStart="180dp"
+							android:layout_marginTop="0dp">
+
+							<ImageView
+								android:id="@+id/tab_off__background__ek1"
+								android:layout_width="73dp"
+								android:layout_height="28dp"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp"
+								android:contentDescription="tab_off__background__ek1"
+								android:src="@drawable/tab_off__background__ek1" />
+
+
+							<RelativeLayout
+								android:id="@+id/tab_on_ek4"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_marginStart="0dp"
+								android:layout_marginTop="0dp">
+
+								<ImageView
+									android:id="@+id/tab_on__background__ek2"
+									android:layout_width="73dp"
+									android:layout_height="28dp"
+									android:layout_marginStart="0dp"
+									android:layout_marginTop="0dp"
+									android:background="?android:selectableItemBackground"
+									android:contentDescription="tab_on__background__ek2"
+									android:src="@drawable/tab_on__background__ek2" />
+
+								<TextView
+									android:id="@+id/new_"
+									android:layout_width="44.4dp"
+									android:layout_height="25.4dp"
+									android:layout_marginLeft="22dp"
+									android:layout_marginTop="6dp"
+									android:text="@string/new_string"
+									android:textColor="@color/choice_your_course_color"
+									android:textSize="14sp" />
+
+							</RelativeLayout>
+
+						</RelativeLayout>
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/course_list"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="108dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+				</RelativeLayout>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/course_list_ek2"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="10dp"
+				android:background="@drawable/bg"
+				android:paddingTop="10dp"
+				android:paddingBottom="10dp">
+
+				<ImageView
+					android:id="@+id/vector_ek1"
+					android:layout_width="68dp"
+					android:layout_height="68dp"
+					android:contentDescription="vector_ek1"
+					android:src="@drawable/vector_ek1"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintHorizontal_bias="0.037"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:srcCompat="@android:drawable/progress_indeterminate_horizontal" />
+
+				<LinearLayout
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:orientation="vertical"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toEndOf="@+id/vector_ek1"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<TextView
+						android:id="@+id/__placeholder_course_"
+						android:layout_width="301dp"
+						android:layout_height="28dp"
+						android:text="@string/__placeholder_course__string"
+						android:textColor="@color/choice_your_course_color"
+						android:textSize="14sp" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<TextView
+							android:id="@+id/jev"
+							android:layout_width="33.2dp"
+							android:layout_height="21.2dp"
+							android:text="@string/jev_string"
+							android:textColor="@color/jev_color"
+							android:textSize="12sp"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toEndOf="parent"
+							app:layout_constraintHorizontal_bias="0.073"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent"
+							app:layout_constraintVertical_bias="1.0" />
+
+						<ImageView
+							android:id="@+id/union"
+							android:layout_width="8.5dp"
+							android:layout_height="10dp"
+							android:contentDescription="union"
+							android:src="@drawable/union"
+							app:layout_constraintBottom_toBottomOf="parent"
+							app:layout_constraintEnd_toStartOf="@+id/jev"
+							app:layout_constraintHorizontal_bias="0.0"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent" />
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<TextView
+						android:id="@+id/_1_hour"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="@string/_1_hour_string"
+						android:textColor="@color/_1_hour_color" />
+				</LinearLayout>
+
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+		</LinearLayout>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

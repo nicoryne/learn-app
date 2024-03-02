@@ -1,5 +1,7 @@
 package com.example.solutionsproject.activities;
 
+import android.content.Intent;
+
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,8 +21,7 @@ public class LoginSuccessActivity extends AppCompatActivity {
         doneAuth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO: Redirect to home page;
-                Toast.makeText(LoginSuccessActivity.this, "Redirecting to home page . . .", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(LoginSuccessActivity.this, HomeActivity.class));
             }
         });
     }

@@ -14,4 +14,46 @@
     <color name="text_primary">#EAEAFF</color>
     <color name="bg_primary">#3D5CFF</color>
     <color name="bg_secondary">#858597</color>
+
+    //home
+    <color name="_bg__home_ek2_color">#1e1f38</color>
+    <color name="meetup_ek2_color">#440687</color>
+    <color name="finished_everything__color">#FFFFFF</color>
+    <color name="learned_today_ek2_color">#B8B8D2</color>
+    <color name="my_courses_color">#3D5CFF</color>
+
+    //account
+    <color name="_bg__account_ek2_color">#1e1f38</color>
+    <color name="favourite_color">#FFFFFF</color>
+
+    //courses
+    <color name="_bg__courses_ek2_color">#1e1f38</color>
+    <color name="choice_your_course_color">#FFFFFF</color>
+    <color name="jev_color">#B8B8D2</color>
+    <color name="_1_hour_color">#FF6905</color>
+    <color name="course_ek1_color">#F4F3FD</color>
+
+    //course_details
+    <color name="_bg__course_details_ek2_color">#1e1f38</color>
+    <color name="__placeholder_course__color">#1F1F39</color>
+    <color name="learn_now_color">#FFFFFF</color>
+    <color name="no_courses_color">#9393A3</color>
+    <color name="_1h___0_lessons_color">#B8B8D2</color>
+
+    //message_4
+    <color name="_bg__message_4_ek2_color">#1e1f38</color>
+    <color name="message_color">#FFFFFF</color>
+    <color name="notification_color">#B8B8D2</color>
+    <color name="no_messages____color">#9393A3</color>
+
+    //message_3
+    <color name="_bg__message_3_ek2_color">#1e1f38</color>
+    <color name="thank_you_for_choosing_us__color">#FFFFFF</color>
+    <color name="just_now_color">#B8B8D2</color>
+
+    //pomodoro
+    <color name="_bg__frame_14_color">#1e1f38</color>
+    <color name="timer_color">#B8B8D2</color>
+    <color name="timer_ek2_color">#858597</color>
+    <color name="pomodoro_timer_color">#FFFFFF</color>
 </resources>

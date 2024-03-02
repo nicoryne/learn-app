@@ -1,0 +1,294 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/horizontalScrollView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/mask_group_5"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/__placeholder_course__color"
+		tools:layout_editor_absoluteX="85dp"
+		tools:layout_editor_absoluteY="0dp">
+
+
+		<TextView
+			android:id="@+id/notifications"
+			android:layout_width="178.4dp"
+			android:layout_height="43.4dp"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="20dp"
+			android:text="@string/notifications_string"
+			android:textColor="@color/thank_you_for_choosing_us__color"
+			android:textSize="24sp"
+			android:textStyle="bold"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent" />
+
+		<LinearLayout
+			android:id="@+id/linearLayout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="10dp"
+			android:orientation="vertical"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/tab">
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/cell"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center">
+
+				<ImageView
+					android:id="@+id/cell__background_"
+					android:layout_width="335dp"
+					android:layout_height="80dp"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					android:contentDescription="cell__background_"
+					android:src="@drawable/cell__background_"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+
+				<RelativeLayout
+					android:id="@+id/group"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="0dp"
+					android:layout_marginTop="0dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageView
+						android:id="@+id/rectangle_71"
+						android:layout_width="335dp"
+						android:layout_height="80dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="rectangle_71"
+						android:src="@drawable/rectangle_71" />
+
+				</RelativeLayout>
+
+
+				<RelativeLayout
+					android:id="@+id/icon"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="16dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageView
+						android:id="@+id/__avatar_en"
+						android:layout_width="48dp"
+						android:layout_height="48dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="__avatar_en"
+						android:src="@drawable/__avatar_en" />
+
+
+					<RelativeLayout
+						android:id="@+id/icon_message"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="15dp"
+						android:layout_marginTop="15dp">
+
+						<ImageView
+							android:id="@+id/subtract"
+							android:layout_width="18.33dp"
+							android:layout_height="18.33dp"
+							android:layout_marginStart="0dp"
+							android:layout_marginTop="0dp"
+							android:contentDescription="subtract"
+							android:src="@drawable/subtract" />
+
+					</RelativeLayout>
+
+				</RelativeLayout>
+
+				<TextView
+					android:id="@+id/thank_you_for_choosing_us_"
+					android:layout_width="172.2dp"
+					android:layout_height="21.2dp"
+					android:layout_marginLeft="84dp"
+					android:layout_marginTop="21dp"
+					android:text="@string/thank_you_for_choosing_us__string"
+					android:textColor="@color/thank_you_for_choosing_us__color"
+					android:textSize="12sp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<TextView
+					android:id="@+id/just_now"
+					android:layout_width="66.2dp"
+					android:layout_height="21.2dp"
+					android:layout_marginLeft="100dp"
+					android:layout_marginTop="45dp"
+					android:text="@string/just_now_string"
+					android:textColor="@color/just_now_color"
+					android:textSize="12sp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+
+				<RelativeLayout
+					android:id="@+id/icon_time"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="85dp"
+					android:layout_marginTop="48dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageView
+						android:id="@+id/subtract_ek1"
+						android:layout_width="11dp"
+						android:layout_height="11dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:contentDescription="subtract_ek1"
+						android:src="@drawable/subtract_ek1" />
+
+				</RelativeLayout>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+		</LinearLayout>
+
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/tab"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toBottomOf="@+id/notifications">
+
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginEnd="75dp"
+				app:layout_constraintEnd_toEndOf="parent"
+				app:layout_constraintTop_toTopOf="parent">
+
+				<Button
+					android:id="@+id/notification"
+					android:layout_width="110.6dp"
+					android:layout_height="30.6dp"
+					android:background="?android:selectableItemBackground"
+					android:padding="1dp"
+					android:text="@string/notification_string"
+					android:textAlignment="center"
+					android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+					android:textColor="@color/message_color"
+					android:textSize="16sp"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<ImageView
+					android:id="@+id/selectied_line"
+					android:layout_width="42dp"
+					android:layout_height="2dp"
+					android:contentDescription="selectied_line"
+					android:src="@drawable/selectied_line"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toBottomOf="@+id/notification" />
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<Button
+				android:id="@+id/message"
+				android:layout_width="105.6dp"
+				android:layout_height="28.6dp"
+				android:layout_marginStart="75dp"
+				android:background="?android:selectableItemBackground"
+				android:padding="1dp"
+				android:text="@string/message_string"
+				android:textAlignment="center"
+				android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+				android:textColor="@color/notification_color"
+				android:textSize="16sp"
+				app:layout_constraintStart_toStartOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/footer_message"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent">
+
+			<ImageButton
+				android:id="@+id/search"
+				android:layout_width="52dp"
+				android:layout_height="69.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="6dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="search"
+				android:src="@drawable/search"
+				app:layout_constraintStart_toEndOf="@+id/course"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/home"
+				android:layout_width="48dp"
+				android:layout_height="60.1dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="home"
+				android:src="@drawable/home"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/course"
+				android:layout_width="48dp"
+				android:layout_height="60.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="course"
+				android:src="@drawable/course"
+				app:layout_constraintStart_toEndOf="@+id/home"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/message_ek1"
+				android:layout_width="48.71dp"
+				android:layout_height="62.99dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="message_ek1"
+				android:src="@drawable/message_ek1"
+				app:layout_constraintStart_toEndOf="@+id/search"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/account"
+				android:layout_width="48dp"
+				android:layout_height="60.1dp"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="15dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="account"
+				android:src="@drawable/account"
+				app:layout_constraintStart_toEndOf="@+id/message_ek1"
+				app:layout_constraintTop_toTopOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

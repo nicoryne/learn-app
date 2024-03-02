@@ -1,0 +1,395 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/horizontalScrollView2"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".home_activity">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/page_home_ek1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+		<RelativeLayout
+			android:id="@+id/home_ek3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="0dp"
+			android:layout_marginTop="0dp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent">
+
+			<View
+				android:id="@+id/_bg__home_ek4"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:background="@drawable/_bg__home_ek4_shape" />
+
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/group_18"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp">
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/footer_home"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintHorizontal_bias="0.491"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:layout_constraintVertical_bias="0.98">
+
+					<ImageButton
+						android:id="@+id/search"
+						android:layout_width="52dp"
+						android:layout_height="69.1dp"
+						android:layout_marginStart="161dp"
+						android:layout_marginTop="6dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="search"
+						android:src="@drawable/search"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/home_ek5"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginStart="31dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="home_ek5"
+						android:src="@drawable/home_ek5"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/course"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginStart="93dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="course"
+						android:src="@drawable/course"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/message"
+						android:layout_width="48.71dp"
+						android:layout_height="62.99dp"
+						android:layout_marginStart="237dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="message"
+						android:src="@drawable/message"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/account"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginStart="304dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="account"
+						android:src="@drawable/account"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/bg"
+					android:layout_width="410dp"
+					android:layout_height="184dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<View
+						android:id="@+id/_bg__bg_ek1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:background="@color/my_courses_color"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:id="@+id/title_ek2"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:layout_constraintBottom_toBottomOf="@+id/_bg__bg_ek1"
+						app:layout_constraintEnd_toStartOf="@+id/profile"
+						app:layout_constraintHorizontal_bias="0.449"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent"
+						app:layout_constraintVertical_bias="0.365">
+
+						<TextView
+							android:id="@+id/hi___placeholder_"
+							android:layout_width="229.4dp"
+							android:layout_height="43.4dp"
+							android:text="@string/hi___placeholder__string"
+							android:textColor="@color/finished_everything__color"
+							android:textSize="24sp"
+							android:textStyle="bold"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent" />
+
+						<TextView
+							android:id="@+id/let_s_start_learning"
+							android:layout_width="141.4dp"
+							android:layout_height="25.4dp"
+							android:layout_marginTop="36dp"
+							android:text="@string/let_s_start_learning_string"
+							android:textColor="@color/finished_everything__color"
+							android:textSize="14sp"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<ImageButton
+						android:id="@+id/profile"
+						android:layout_width="48dp"
+						android:layout_height="49.98dp"
+						android:layout_marginEnd="44dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="profile"
+						android:src="@drawable/profile"
+						app:layout_constraintBottom_toBottomOf="@+id/_bg__bg_ek1"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintTop_toTopOf="parent"
+						app:layout_constraintVertical_bias="0.335" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/meetup"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="553dp"
+					app:layout_constraintBottom_toTopOf="@+id/footer_home"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageView
+						android:id="@+id/rectangle_34"
+						android:layout_width="335dp"
+						android:layout_height="120dp"
+						android:contentDescription="rectangle_34"
+						android:src="@drawable/rectangle_34"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageView
+						android:id="@+id/vector_ek1"
+						android:layout_width="96.51dp"
+						android:layout_height="96.51dp"
+						android:layout_marginStart="225dp"
+						android:layout_marginTop="8dp"
+						android:contentDescription="vector_ek1"
+						android:src="@drawable/vector_ek1"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						android:id="@+id/meetup_ek2"
+						android:layout_width="112.4357000351dp"
+						android:layout_height="44.435700035095dp"
+						android:layout_marginLeft="21dp"
+						android:layout_marginTop="27dp"
+						android:text="@string/meetup_ek2_string"
+						android:textColor="@color/meetup_ek2_color"
+						android:textSize="24.36sp"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						android:id="@+id/chat_with_your_fellow_learners"
+						android:layout_width="190.2dp"
+						android:layout_height="21.2dp"
+						android:layout_marginLeft="23dp"
+						android:layout_marginTop="55dp"
+						android:text="@string/chat_with_your_fellow_learners_string"
+						android:textColor="@color/meetup_ek2_color"
+						android:textSize="12sp"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<ImageView
+					android:id="@+id/add"
+					android:layout_width="249dp"
+					android:layout_height="154dp"
+					android:layout_marginTop="264dp"
+					android:contentDescription="add"
+					android:src="@drawable/add"
+					app:layout_constraintBottom_toTopOf="@+id/learning_plan"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent" />
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/learning_plan"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="413dp"
+					app:layout_constraintBottom_toTopOf="@+id/meetup"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+					<ImageView
+						android:id="@+id/rectangle_29"
+						android:layout_width="335dp"
+						android:layout_height="64dp"
+						android:contentDescription="rectangle_29"
+						android:src="@drawable/rectangle_29"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toBottomOf="@+id/learning_plan_ek2" />
+
+
+					<TextView
+						android:id="@+id/finished_everything_"
+						android:layout_width="153.4dp"
+						android:layout_height="25.4dp"
+						android:text="@string/finished_everything__string"
+						android:textColor="@color/finished_everything__color"
+						android:textSize="14sp"
+						app:layout_constraintBottom_toBottomOf="@+id/rectangle_29"
+						app:layout_constraintEnd_toEndOf="@+id/rectangle_29"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="@+id/rectangle_29" />
+
+					<TextView
+						android:id="@+id/learning_plan_ek2"
+						android:layout_width="138.8dp"
+						android:layout_height="32.8dp"
+						android:text="@string/learning_plan_ek2_string"
+						android:textColor="@color/finished_everything__color"
+						android:textSize="18sp"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintHorizontal_bias="0.0"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/learned_today"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="137dp"
+					app:layout_constraintBottom_toTopOf="@+id/add"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+					<ImageView
+						android:id="@+id/rectangle_29_ek1"
+						android:layout_width="335dp"
+						android:layout_height="96dp"
+						android:contentDescription="rectangle_29_ek1"
+						android:src="@drawable/rectangle_29_ek1" />
+
+					<TextView
+						android:id="@+id/learned_today_ek2"
+						android:layout_width="99.2dp"
+						android:layout_height="21.2dp"
+						android:layout_marginLeft="16dp"
+						android:layout_marginTop="20dp"
+						android:text="@string/learned_today_ek2_string"
+						android:textColor="@color/learned_today_ek2_color"
+						android:textSize="12sp"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<TextView
+						android:id="@+id/my_courses"
+						android:layout_width="80.2dp"
+						android:layout_height="21.2dp"
+						android:layout_marginLeft="253dp"
+						android:layout_marginTop="20dp"
+						android:text="@string/my_courses_string"
+						android:textColor="@color/my_courses_color"
+						android:textSize="12sp"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+
+					<androidx.constraintlayout.widget.ConstraintLayout
+						android:id="@+id/timer"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_marginStart="16dp"
+						android:layout_marginTop="40dp"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent">
+
+						<TextView
+							android:id="@+id/_46min"
+							android:layout_width="84dp"
+							android:layout_height="36dp"
+							android:layout_marginLeft="0dp"
+							android:layout_marginTop="0dp"
+							android:text="@string/_46min_string"
+							android:textColor="@color/finished_everything__color"
+							android:textSize="20sp"
+							android:textStyle="bold"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent" />
+
+						<TextView
+							android:id="@+id/___60min"
+							android:layout_width="51dp"
+							android:layout_height="18dp"
+							android:layout_marginLeft="70dp"
+							android:layout_marginTop="8dp"
+							android:text="@string/___60min_string"
+							android:textColor="@color/learned_today_ek2_color"
+							app:layout_constraintStart_toStartOf="parent"
+							app:layout_constraintTop_toTopOf="parent" />
+
+					</androidx.constraintlayout.widget.ConstraintLayout>
+
+					<ProgressBar
+						android:id="@+id/rectangle_30"
+						android:layout_width="303dp"
+						android:layout_height="6dp"
+						android:layout_marginStart="16dp"
+						android:layout_marginTop="73dp"
+						android:background="@color/white"
+						android:contentDescription="rectangle_30"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+		</RelativeLayout>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

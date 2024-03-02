@@ -1,0 +1,303 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/horizontalScrollView"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/mask_group_14"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:background="@color/__placeholder_course__color"
+		android:visibility="visible"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintHorizontal_bias="0.0"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintVertical_bias="1.0">
+
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/ads"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:layout_constraintBottom_toTopOf="@+id/details"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintStart_toStartOf="parent">
+
+			<ImageView
+				android:id="@+id/bg_ek2"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="40dp"
+				android:contentDescription="bg_ek2"
+				android:src="@drawable/bg_ek2"
+				app:layout_constraintStart_toStartOf="@+id/art"
+				app:layout_constraintTop_toTopOf="@+id/art" />
+
+			<ImageView
+				android:id="@+id/art"
+				android:layout_width="375dp"
+				android:layout_height="224dp"
+				android:contentDescription="art"
+				android:src="@drawable/art"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+
+			<TextView
+				android:id="@+id/__placeholder_course_"
+				android:layout_width="236dp"
+				android:layout_height="36dp"
+				android:text="@string/__placeholder_course__string"
+				android:textColor="@color/__placeholder_course__color"
+				android:textSize="20sp"
+				android:textStyle="bold"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="@+id/art"
+				app:layout_constraintHorizontal_bias="0.22"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+		<RelativeLayout
+			android:id="@+id/details"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintStart_toStartOf="parent">
+
+
+			<ImageView
+				android:id="@+id/bg_ek5"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:contentDescription="bg_ek5"
+				android:src="@drawable/bg_ek5" />
+
+
+			<androidx.constraintlayout.widget.ConstraintLayout
+				android:id="@+id/button"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="438dp">
+
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/button_primary"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="10dp"
+					android:layout_marginTop="14dp"
+					app:layout_constraintStart_toEndOf="@+id/button_ek2"
+					app:layout_constraintTop_toTopOf="parent">
+
+					<ImageButton
+						android:id="@+id/button_primary__background_"
+						android:layout_width="236dp"
+						android:layout_height="50dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="button_primary__background_"
+						android:src="@drawable/button_primary__background_"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+
+					<TextView
+						android:id="@+id/learn_now"
+						android:layout_width="98.6dp"
+						android:layout_height="28.6dp"
+						android:gravity="center"
+						android:text="@string/learn_now_string"
+						android:textColor="@color/learn_now_color"
+						android:textSize="16sp"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="@+id/button_primary__background_"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/button_ek2"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_marginStart="20dp"
+					android:layout_marginTop="14dp"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent">
+
+
+					<ImageButton
+						android:id="@+id/button_secondary__background_"
+						android:layout_width="89dp"
+						android:layout_height="50dp"
+						android:layout_marginStart="0dp"
+						android:layout_marginTop="0dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="button_secondary__background_"
+						android:src="@drawable/button_secondary__background_"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageView
+						android:id="@+id/vector__stroke_"
+						android:layout_width="18.33dp"
+						android:layout_height="17.5dp"
+						android:contentDescription="vector__stroke_"
+						android:src="@drawable/vector__stroke_star"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+			</androidx.constraintlayout.widget.ConstraintLayout>
+
+			<TextView
+				android:id="@+id/no_courses"
+				android:layout_width="79.2dp"
+				android:layout_height="21.2dp"
+				android:layout_marginLeft="143dp"
+				android:layout_marginTop="205dp"
+				android:text="@string/no_courses_string"
+				android:textColor="@color/no_courses_color"
+				android:textSize="12sp" />
+
+
+			<RelativeLayout
+				android:id="@+id/about"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="103dp">
+
+				<TextView
+					android:id="@+id/about_this_course"
+					android:layout_width="159.6dp"
+					android:layout_height="28.6dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:text="@string/about_this_course_string"
+					android:textColor="@color/learn_now_color"
+					android:textSize="16sp"
+					android:textStyle="bold" />
+
+				<TextView
+					android:id="@+id/sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium_"
+					android:layout_width="318.2dp"
+					android:layout_height="39.2dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="28dp"
+					android:text="@string/sed_ut_perspiciatis_unde_omnis_iste_natus_error_sit_voluptatem_accusantium_doloremque_laudantium__string"
+					android:textColor="@color/no_courses_color"
+					android:textSize="12sp" />
+
+			</RelativeLayout>
+
+
+			<RelativeLayout
+				android:id="@+id/title"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginStart="20dp"
+				android:layout_marginTop="35dp">
+
+				<TextView
+					android:id="@+id/_1h___0_lessons"
+					android:layout_width="88.2dp"
+					android:layout_height="21.2dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="34dp"
+					android:text="@string/_1h___0_lessons_string"
+					android:textColor="@color/_1h___0_lessons_color"
+					android:textSize="12sp" />
+
+				<TextView
+					android:id="@+id/__placeholder_course__ek1"
+					android:layout_width="236dp"
+					android:layout_height="36dp"
+					android:layout_marginLeft="0dp"
+					android:layout_marginTop="0dp"
+					android:text="@string/__placeholder_course__ek1_string"
+					android:textColor="@color/learn_now_color"
+					android:textSize="20sp"
+					android:textStyle="bold" />
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+
+		<androidx.constraintlayout.widget.ConstraintLayout
+			android:id="@+id/navigation_bar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="20dp"
+			android:layout_marginTop="44dp"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent">
+
+
+			<ImageView
+				android:id="@+id/cd_btn_pomodoro"
+				android:layout_width="24dp"
+				android:layout_height="24dp"
+				android:layout_marginEnd="10dp"
+				android:src="@drawable/stopwatch"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintEnd_toEndOf="@+id/navigation_bar_light__background_"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageView
+				android:id="@+id/navigation_bar_light__background_"
+				android:layout_width="375dp"
+				android:layout_height="44dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:contentDescription="navigation_bar_light__background_"
+				android:src="@drawable/navigation_bar_light__background_"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageView
+				android:id="@+id/bg_ek7"
+				android:layout_width="375dp"
+				android:layout_height="44dp"
+				android:layout_marginStart="0dp"
+				android:layout_marginTop="0dp"
+				android:contentDescription="bg_ek7"
+				android:src="@drawable/bg_ek7"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+			<ImageButton
+				android:id="@+id/vector_3"
+				android:layout_width="48dp"
+				android:layout_height="48dp"
+				android:background="?android:selectableItemBackground"
+				android:contentDescription="vector_3"
+				android:rotationX="0"
+				android:rotationY="-180"
+				android:src="@drawable/vector_3"
+				app:layout_constraintBottom_toBottomOf="parent"
+				app:layout_constraintStart_toStartOf="parent"
+				app:layout_constraintTop_toTopOf="parent" />
+
+		</androidx.constraintlayout.widget.ConstraintLayout>
+
+	</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
