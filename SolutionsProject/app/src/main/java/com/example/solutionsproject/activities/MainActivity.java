@@ -19,6 +19,12 @@ import com.example.solutionsproject.R;
 import com.example.solutionsproject.classes.opening.OnBoardingAdapter;
 import com.example.solutionsproject.classes.opening.OnBoardingModel;
 
+import org.ini4j.Ini;
+
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 

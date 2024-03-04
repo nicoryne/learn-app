@@ -40,11 +40,6 @@
           <theme>@style/Theme.SolutionsProject</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_item_flashcard.xml">
-        <config>
-          <theme>@style/Theme.SolutionsProject</theme>
-        </config>
-      </layout>
       <layout url="file://$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_item_onboarding.xml">
         <config>
           <theme>@style/Theme.SolutionsProject</theme>
@@ -105,11 +100,6 @@
           <theme>@style/Theme.SolutionsProject</theme>
         </config>
       </layout>
-      <layout url="file://$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/item_flashcard.xml">
-        <config>
-          <theme>@style/Theme.SolutionsProject</theme>
-        </config>
-      </layout>
     </layouts>
   </component>
   <component name="AutoImportSettings">
@@ -117,9 +107,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="[Hunyo] Added flashcard class and flashcard activity.">
+      <change afterPath="$PROJECT_DIR$/SolutionsProject/IniConfigs/TimerConfig.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_timer.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SolutionsProject/libraries/ini4j-0.5.4.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/PomodoroActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/PomodoroActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/PomodoroTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/PomodoroTimer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_pomodoro.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_pomodoro.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +129,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\anton\.android\avd\Pixel_6_Pro_API_27.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\jianl\.android\avd\Pixel_6a_API_27.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/SolutionsProject">
       <ProjectState />
@@ -212,7 +212,7 @@
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "primary",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/jianl/AndroidStudioProjects/learn-app/SolutionsProject/app/src/main/res/layout",
     "project.structure.last.edited": "Modules",
@@ -821,6 +821,39 @@
     </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
