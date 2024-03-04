@@ -74,4 +74,27 @@
     <string name="_6_string">6</string>
     <string name="_7_string">7</string>
     <string name="p_nt_work">p_nt_work</string>
+
+    //no notifications
+    <string name="no_notifications_h1__string">No notifications yet!</string>
+    <string name="no_notifications_p__string">We\'ll notify you once we have something for you</string>
+    <string name="back">back</string>
+    <string name="no_notifications_vector">no_notifications_vector</string>
+
+    //no network
+    <string name="no_network_h1__string">No network!</string>
+    <string name="no_network_p__string">Please check your internet connection and try again</string>
+    <string name="no_network_vector">no_network_vector</string>
+    <string name="try_again_btn__text">Try again</string>
+
+    //no videos
+    <string name="no_videos_h1__string">No videos!</string>
+    <string name="no_videos_p__string">There are no videos to watch at the moment</string>
+    <string name="no_videos_vector">no_videos_vector</string>
+    <string name="search_more_btn__text">Search more</string>
+
+    //no courses
+    <string name="no_courses_h1__string">No courses!</string>
+    <string name="no_courses_p__string">You don\'t have any courses yet!</string>
+    <string name="no_courses_vector">no_courses_vector</string>
 </resources>

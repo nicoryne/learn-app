@@ -56,4 +56,11 @@
     <color name="timer_color">#B8B8D2</color>
     <color name="timer_ek2_color">#858597</color>
     <color name="pomodoro_timer_color">#FFFFFF</color>
+
+    //no notifications yet
+    <color name="nonotifs_h1__text_color">#DADAF7</color>
+    <color name="nonotifs_p__text_color">#B8B8D2</color>
+
+    //no network yet
+    <color name="nonetwork_btn__color">#3D5CFF</color>
 </resources>

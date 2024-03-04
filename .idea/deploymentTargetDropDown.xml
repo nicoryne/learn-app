@@ -17,6 +17,18 @@
       <entry key="MainActivity">
         <State />
       </entry>
+      <entry key="NoCoursesActivity">
+        <State />
+      </entry>
+      <entry key="NoNetworkActivity">
+        <State />
+      </entry>
+      <entry key="NoNotificationsActivity">
+        <State />
+      </entry>
+      <entry key="NoVideosActivity">
+        <State />
+      </entry>
       <entry key="app">
         <State />
       </entry>
