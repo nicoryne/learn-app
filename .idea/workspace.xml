@@ -116,24 +116,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/flashcard/Flashcard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+    <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="[Hunyo] Added flashcard class and flashcard activity.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/LoginSuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/LoginSuccessActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/PomodoroActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/PomodoroActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/AuthenticationSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/authentication/AuthenticationSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/DemoAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/authentication/DemoAuthentication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/OnBoardingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/opening/OnBoardingAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/OnBoardingModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/opening/OnBoardingModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/PomodoroTimer.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/PomodoroTimer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/SessionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/authentication/SessionManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -825,12 +811,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709303144044</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Hunyo] Added flashcard class and flashcard activity.">
+      <option name="closed" value="true" />
+      <created>1709565545463</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709565545464</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[Hunyo] Initial Commit Authentication System (Demo Only)" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Hunyo] Initial Commit Authentication System (Demo Only)" />
+    <MESSAGE value="[Hunyo] Added flashcard class and flashcard activity." />
+    <option name="LAST_COMMIT_MESSAGE" value="[Hunyo] Added flashcard class and flashcard activity." />
   </component>
 </project>
