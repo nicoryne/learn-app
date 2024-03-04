@@ -1,4 +1,4 @@
-package com.example.solutionsproject.classes;
+package com.example.solutionsproject.classes.general;
 
 import java.util.Timer;
 import java.util.TimerTask;

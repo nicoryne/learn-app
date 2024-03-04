@@ -1,4 +1,4 @@
-package com.example.solutionsproject.classes;
+package com.example.solutionsproject.classes.opening;
 
 import android.view.LayoutInflater;
 import android.view.View;
