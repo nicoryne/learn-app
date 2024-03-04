@@ -9,7 +9,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -17,9 +16,8 @@ import androidx.core.content.ContextCompat;
 import androidx.viewpager2.widget.ViewPager2;
 
 import com.example.solutionsproject.R;
-import com.example.solutionsproject.classes.OnBoardingAdapter;
-import com.example.solutionsproject.classes.OnBoardingModel;
-import com.example.solutionsproject.classes.SessionManager;
+import com.example.solutionsproject.classes.opening.OnBoardingAdapter;
+import com.example.solutionsproject.classes.opening.OnBoardingModel;
 
 import java.util.ArrayList;
 import java.util.List;

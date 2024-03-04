@@ -1,4 +1,4 @@
-package com.example.solutionsproject.classes;
+package com.example.solutionsproject.classes.general;
 
 public class User {
     private String name;

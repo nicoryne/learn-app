@@ -16,7 +16,7 @@ import android.widget.Toast;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
 import com.example.solutionsproject.R;
-import com.example.solutionsproject.classes.PomodoroTimer;
+import com.example.solutionsproject.classes.general.PomodoroTimer;
 
 public class CourseDetailsActivity extends Activity {
 

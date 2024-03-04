@@ -1,4 +1,6 @@
-package com.example.solutionsproject.classes;
+package com.example.solutionsproject.classes.authentication;
+
+import com.example.solutionsproject.classes.general.User;
 
 public class DemoAuthentication implements AuthenticationSystem<User> {
     private final String email;
