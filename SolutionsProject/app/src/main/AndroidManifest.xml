@@ -4,7 +4,10 @@
 
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
 
+    <uses-permission android:name="android.permission.VIBRATE" />
+
     <application
+        android:name='.classes.general.App'
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -51,10 +54,6 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.PomodoroActivity"
-            android:exported="false"
-            android:screenOrientation="portrait" />
-        <activity
             android:name=".activities.CoursesActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
@@ -87,6 +86,7 @@
              </intent-filter>
 
         </activity>
+        <service android:name=".classes.general.PomodoroService" />
     </application>
 
 </manifest>

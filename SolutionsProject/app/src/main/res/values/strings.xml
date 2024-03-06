@@ -98,4 +98,7 @@
     <string name="no_courses_p__string">You don\'t have any courses yet!</string>
     <string name="no_courses_vector">no_courses_vector</string>
 
+    //flashcard
+    <string name="start_timer">Start Timer</string>
+
 </resources>

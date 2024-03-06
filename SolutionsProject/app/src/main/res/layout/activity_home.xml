@@ -4,7 +4,7 @@
 	android:id="@+id/horizontalScrollView2"
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
-	tools:context=".home_activity">
+	tools:context=".activities.HomeActivity">
 
 	<androidx.constraintlayout.widget.ConstraintLayout
 		android:id="@+id/page_home_ek1"
@@ -36,79 +36,6 @@
 				android:layout_height="match_parent"
 				android:layout_marginStart="0dp"
 				android:layout_marginTop="0dp">
-
-				<androidx.constraintlayout.widget.ConstraintLayout
-					android:id="@+id/footer_home"
-					android:layout_width="wrap_content"
-					android:layout_height="wrap_content"
-					app:layout_constraintBottom_toBottomOf="parent"
-					app:layout_constraintEnd_toEndOf="parent"
-					app:layout_constraintHorizontal_bias="0.491"
-					app:layout_constraintStart_toStartOf="parent"
-					app:layout_constraintTop_toTopOf="parent"
-					app:layout_constraintVertical_bias="0.98">
-
-					<ImageButton
-						android:id="@+id/search"
-						android:layout_width="52dp"
-						android:layout_height="69.1dp"
-						android:layout_marginStart="161dp"
-						android:layout_marginTop="6dp"
-						android:background="?android:selectableItemBackground"
-						android:contentDescription="search"
-						android:src="@drawable/search"
-						app:layout_constraintStart_toStartOf="parent"
-						app:layout_constraintTop_toTopOf="parent" />
-
-					<ImageButton
-						android:id="@+id/home_ek5"
-						android:layout_width="48dp"
-						android:layout_height="60.1dp"
-						android:layout_marginStart="31dp"
-						android:layout_marginTop="15dp"
-						android:background="?android:selectableItemBackground"
-						android:contentDescription="home_ek5"
-						android:src="@drawable/home_ek5"
-						app:layout_constraintStart_toStartOf="parent"
-						app:layout_constraintTop_toTopOf="parent" />
-
-					<ImageButton
-						android:id="@+id/course"
-						android:layout_width="48dp"
-						android:layout_height="60.1dp"
-						android:layout_marginStart="93dp"
-						android:layout_marginTop="15dp"
-						android:background="?android:selectableItemBackground"
-						android:contentDescription="course"
-						android:src="@drawable/course"
-						app:layout_constraintStart_toStartOf="parent"
-						app:layout_constraintTop_toTopOf="parent" />
-
-					<ImageButton
-						android:id="@+id/message"
-						android:layout_width="48.71dp"
-						android:layout_height="62.99dp"
-						android:layout_marginStart="237dp"
-						android:layout_marginTop="15dp"
-						android:background="?android:selectableItemBackground"
-						android:contentDescription="message"
-						android:src="@drawable/message"
-						app:layout_constraintStart_toStartOf="parent"
-						app:layout_constraintTop_toTopOf="parent" />
-
-					<ImageButton
-						android:id="@+id/account"
-						android:layout_width="48dp"
-						android:layout_height="60.1dp"
-						android:layout_marginStart="304dp"
-						android:layout_marginTop="15dp"
-						android:background="?android:selectableItemBackground"
-						android:contentDescription="account"
-						android:src="@drawable/account"
-						app:layout_constraintStart_toStartOf="parent"
-						app:layout_constraintTop_toTopOf="parent" />
-
-				</androidx.constraintlayout.widget.ConstraintLayout>
 
 				<androidx.constraintlayout.widget.ConstraintLayout
 					android:id="@+id/bg"
@@ -182,7 +109,6 @@
 					android:layout_width="wrap_content"
 					android:layout_height="wrap_content"
 					android:layout_marginTop="553dp"
-					app:layout_constraintBottom_toTopOf="@+id/footer_home"
 					app:layout_constraintEnd_toEndOf="parent"
 					app:layout_constraintStart_toStartOf="parent"
 					app:layout_constraintTop_toTopOf="parent">
@@ -312,7 +238,9 @@
 						android:layout_width="335dp"
 						android:layout_height="96dp"
 						android:contentDescription="rectangle_29_ek1"
-						android:src="@drawable/rectangle_29_ek1" />
+						android:src="@drawable/rectangle_29_ek1"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
 
 					<TextView
 						android:id="@+id/learned_today_ek2"
@@ -383,6 +311,80 @@
 						android:background="@color/white"
 						android:contentDescription="rectangle_30"
 						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+				</androidx.constraintlayout.widget.ConstraintLayout>
+
+				<androidx.constraintlayout.widget.ConstraintLayout
+					android:id="@+id/footer_home"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:background="@color/__placeholder_course__color"
+					app:layout_constraintBottom_toBottomOf="parent"
+					app:layout_constraintEnd_toEndOf="parent"
+					app:layout_constraintHorizontal_bias="0.491"
+					app:layout_constraintStart_toStartOf="parent"
+					app:layout_constraintTop_toTopOf="parent"
+					app:layout_constraintVertical_bias="0.98">
+
+					<ImageButton
+						android:id="@+id/search"
+						android:layout_width="52dp"
+						android:layout_height="69.1dp"
+						android:layout_marginTop="6dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="search"
+						android:src="@drawable/search"
+						app:layout_constraintEnd_toStartOf="@+id/message"
+						app:layout_constraintStart_toEndOf="@+id/course"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/home_ek5"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="home_ek5"
+						android:src="@drawable/home_ek5"
+						app:layout_constraintEnd_toStartOf="@+id/course"
+						app:layout_constraintStart_toStartOf="parent"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/course"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="course"
+						android:src="@drawable/course"
+						app:layout_constraintEnd_toStartOf="@+id/search"
+						app:layout_constraintStart_toEndOf="@+id/home_ek5"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/message"
+						android:layout_width="48.71dp"
+						android:layout_height="62.99dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="message"
+						android:src="@drawable/message"
+						app:layout_constraintEnd_toStartOf="@+id/account"
+						app:layout_constraintStart_toEndOf="@+id/search"
+						app:layout_constraintTop_toTopOf="parent" />
+
+					<ImageButton
+						android:id="@+id/account"
+						android:layout_width="48dp"
+						android:layout_height="60.1dp"
+						android:layout_marginTop="15dp"
+						android:background="?android:selectableItemBackground"
+						android:contentDescription="account"
+						android:src="@drawable/account"
+						app:layout_constraintEnd_toEndOf="parent"
+						app:layout_constraintStart_toEndOf="@+id/message"
 						app:layout_constraintTop_toTopOf="parent" />
 
 				</androidx.constraintlayout.widget.ConstraintLayout>
