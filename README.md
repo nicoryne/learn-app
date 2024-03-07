@@ -1,6 +1,5 @@
-# Learn App
-
-Learn is a digital learning tool
+# ScholarMe
+ScholarMe is a digital learning tool
 
 ## Description
 
