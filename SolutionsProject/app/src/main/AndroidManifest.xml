@@ -71,11 +71,11 @@
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.FlashcardActivity"
+            android:name=".activities.MainActivity"
             android:exported="false"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name=".activities.FlashcardActivity"
             android:exported="true"
             android:screenOrientation="portrait">
 
