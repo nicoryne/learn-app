@@ -128,7 +128,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\anton\.android\avd\Pixel_6_Pro_API_27.avd]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\jianl\.android\avd\Pixel_6a_API_27.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/SolutionsProject">
       <ProjectState />
@@ -182,6 +182,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -191,7 +196,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
+  "associatedIndex": 2
 }</component>
   <component name="ProjectId" id="2d5eiJJICLyS8VngmeM0iUC0nSY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -219,7 +224,7 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\jianl\AndroidStudioProjects\learn-app\SolutionsProject\app\src\main\res\layout" />
@@ -239,9 +244,9 @@
       <recent name="com.example.solutionsproject.classes" />
     </key>
   </component>
-  <component name="RunManager" selected="Android App.Learn.app">
+  <component name="RunManager" selected="Android App.MainActivity">
     <configuration name="Learn.app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <module name="SolutionsProject.app.main" />
+      <module name="Learn.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -308,6 +313,7 @@
       </method>
     </configuration>
     <configuration name="Learn.app.androidTest" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="Learn.app.androidTest" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -787,9 +793,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Android App.MainActivity" />
         <item itemvalue="Android App.NoNetworkActivity" />
         <item itemvalue="Android App.NoCoursesActivity" />
-        <item itemvalue="Android App.MainActivity" />
         <item itemvalue="Android App.NoNotificationsActivity" />
       </list>
     </recent_temporary>
@@ -819,22 +825,56 @@
       <option name="project" value="LOCAL" />
       <updated>1709565545464</updated>
     </task>
-    <task id="LOCAL-00003" summary="[Hunyo] Refactoring.">
+    <task id="LOCAL-00003" summary="(Olamit) Pomodoro (Functional, but pop-up window gets blocked)">
       <option name="closed" value="true" />
-      <created>1709565675760</created>
+      <created>1709570993272</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1709565675760</updated>
+      <updated>1709570993272</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[Hunyo] Initial Commit Authentication System (Demo Only)" />
     <MESSAGE value="[Hunyo] Added flashcard class and flashcard activity." />
-    <MESSAGE value="[Hunyo] Refactoring." />
-    <option name="LAST_COMMIT_MESSAGE" value="[Hunyo] Refactoring." />
+    <MESSAGE value="(Olamit) Pomodoro (Functional, but pop-up window gets blocked)" />
+    <MESSAGE value="(Olamit) Pomodoro (Functional Foreground Service)" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Olamit) Pomodoro (Functional Foreground Service)" />
   </component>
 </project>
