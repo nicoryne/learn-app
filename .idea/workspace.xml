@@ -106,19 +106,20 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="[Hunyo] Refactoring.">
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/api/Api.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/api/ArlinearApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/api/ChatPDFApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/api/OpenAIApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/flashcard/FlashcardList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/flashcard/FlashcardManager.java" afterDir="false" />
+    <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="(Olamit) Pomodoro (Functional Foreground Service)">
+      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/PomodoroService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/CourseDetailsActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/flashcard/Flashcard.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/flashcard/Flashcard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/PomodoroActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/classes/general/PomodoroTimer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/strings.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +197,7 @@
     <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
-  "associatedIndex": 2
+  &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2d5eiJJICLyS8VngmeM0iUC0nSY" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -206,23 +207,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "full.screen.before.presentation.mode": "false",
-    "git-widget-placeholder": "primary",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/anton/Desktop/Programming/Android Studio Projects/WriteaFiletoInternalStorage",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.17",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;android-custom-viewC:/Users/jianl/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.11.0/47456a5ab79e72baca757532823ea1fa08e001d3/material-1.11.0-sources.jar!/com/google/android/material/button/MaterialButton.java_SELECTED&quot;: &quot;MaterialButton&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pomodoro__feature&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jianl/OneDrive/Desktop/Web Dev 3/NotificationTimer-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
   <component name="RecentsManager">
