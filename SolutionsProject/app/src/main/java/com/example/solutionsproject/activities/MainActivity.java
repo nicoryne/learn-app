@@ -55,9 +55,9 @@ public class MainActivity extends AppCompatActivity {
         authButtons = findViewById(R.id.button);
 
         List<OnBoardingModel> onBoardingModels = new ArrayList<>();
-        onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Numerous free trial courses", "Free courses for you to discover!"));
-        onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Quick and easy learning", "Accessible services provided in various ways, to accompany all your learning styles!"));
-        onBoardingModels.add(new OnBoardingModel(R.drawable.ic_launcher_foreground, "Create your own study plan", "Study at your own pace! Making yourself consistent and motivated."));
+        onBoardingModels.add(new OnBoardingModel(R.drawable.onboarding_img_1, "Numerous free trial courses", "Free courses for you to discover!"));
+        onBoardingModels.add(new OnBoardingModel(R.drawable.onboarding_img_2, "Quick and easy learning", "Accessible services provided in various ways, to accompany all your learning styles!"));
+        onBoardingModels.add(new OnBoardingModel(R.drawable.onboarding_img_3, "Create your own study plan", "Study at your own pace! Making yourself consistent and motivated."));
 
         onBoardingAdapter = new OnBoardingAdapter(onBoardingModels);
         viewPagerOnboarding.setAdapter(onBoardingAdapter);

@@ -63,4 +63,7 @@
 
     //no network yet
     <color name="nonetwork_btn__color">#3D5CFF</color>
+
+    //flashcard
+    <color name="flashcard_bg__color">#0C0C21</color>
 </resources>
