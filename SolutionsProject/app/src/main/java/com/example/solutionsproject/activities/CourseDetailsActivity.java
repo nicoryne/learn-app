@@ -74,10 +74,10 @@ public class CourseDetailsActivity extends Activity {
         EditText p_nt_break = popupView.findViewById(R.id.p_nt_break);
         EditText p_nt_longbreakinterval = popupView.findViewById(R.id.p_nt_longbreakinterval);
 
-        p_nt_work.setText(preferences.getInt(KEY_WORK_TIME, 25));
-        p_nt_work.setText(preferences.getInt(KEY_BREAK_TIME, 5));
-        p_nt_work.setText(preferences.getInt(KEY_LONG_BREAK_TIME, 30));
-        p_nt_work.setText(preferences.getInt(KEY_BREAK_INTERVAL, 4));
+        p_nt_work.setText(String.valueOf(preferences.getInt(KEY_WORK_TIME, 25)));
+        p_nt_break.setText(String.valueOf(preferences.getInt(KEY_BREAK_TIME, 5)));
+        p_nt_long.setText(String.valueOf(preferences.getInt(KEY_LONG_BREAK_TIME, 30)));
+        p_nt_longbreakinterval.setText(String.valueOf(preferences.getInt(KEY_BREAK_INTERVAL, 4)));
 
 //        // pomodoro methods
         p_btn_close.setOnClickListener(v -> popupWindow.dismiss());
