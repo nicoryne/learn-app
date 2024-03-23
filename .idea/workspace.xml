@@ -107,38 +107,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0f9efc2-200e-4277-8f96-2e307f9cafb8" name="Changes" comment="(Olamit) Pomodoro (Functional Foreground Service)">
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/_bg__flashcard_ek1_shape.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/line_divider.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/onboarding_img_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/onboarding_img_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/onboarding_img_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/scholarme_logo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/vector_correct_mark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/vector_wrong_mark.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deploymentTargetDropDown.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/FlashcardActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/java/com/example/solutionsproject/activities/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/drawable/ic_launcher_foreground.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/layout/activity_flashcard.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-anydpi/ic_launcher.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-anydpi/ic_launcher_round.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-hdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-mdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SolutionsProject/app/src/main/res/values/colors.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,13 +203,14 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ScreenRecorder.SavePath": "C:\\Users\\porte\\Pictures - Copy",
     "android-custom-viewC:/Users/jianl/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.11.0/47456a5ab79e72baca757532823ea1fa08e001d3/material-1.11.0-sources.jar!/com/google/android/material/button/MaterialButton.java_SELECTED": "MaterialButton",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/jianl/OneDrive/Desktop/Web Dev 3/NotificationTimer-master",
+    "last_opened_file_path": "C:/Users/porte/Pictures - Copy",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.17",
     "project.structure.side.proportion": "0.2"

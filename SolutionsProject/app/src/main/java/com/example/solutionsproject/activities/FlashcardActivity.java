@@ -90,7 +90,7 @@ public class FlashcardActivity extends AppCompatActivity {
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
                 LinearLayout.LayoutParams.MATCH_PARENT,
                 LinearLayout.LayoutParams.WRAP_CONTENT);
-        layoutParams.setMargins(20, 20, 20, 20);
+        layoutParams.setMargins(20, 40, 20, 40);
 
         int rippleColor = ContextCompat.getColor(this, R.color.bg_secondary);
         int buttonColor = ContextCompat.getColor(this, R.color.bg_primary);
@@ -117,7 +117,7 @@ public class FlashcardActivity extends AppCompatActivity {
     private GradientDrawable createRoundedButtonDrawable(int color) {
         GradientDrawable drawable = new GradientDrawable();
         drawable.setShape(GradientDrawable.RECTANGLE);
-        drawable.setCornerRadius(100);
+        drawable.setCornerRadius(30);
         drawable.setColor(color);
 
         return drawable;
